@@ -7,7 +7,7 @@ jobs:
   run:
     runs-on: ubuntu-latest
     timeout-minutes: 360
-    
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -22,13 +22,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run bot
-        env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          AES_TEXT_KEY_HEX: ${{ secrets.AES_TEXT_KEY_HEX }}
-          AES_TEXT_IV_HEX: ${{ secrets.AES_TEXT_IV_HEX }}
-          AES_ARCHIVE_KEY_HEX: ${{ secrets.AES_ARCHIVE_KEY_HEX }}
-          AES_ARCHIVE_IV_HEX: ${{ secrets.AES_ARCHIVE_IV_HEX }}
+      - name: Load .env file and run bot
         run: |
+          echo "Loading .env..."
+          export $(grep -v '^#' .env | xargs)
           echo "Bot is starting..."
           python bot.py
