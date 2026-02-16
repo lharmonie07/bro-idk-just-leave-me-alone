@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <ConfigVersion Value="" />
+  <ConfigVersions>
+    <ConfigVersion Value="" PlatformID="1" />
+    <ConfigVersion Value="" PlatformID="2" />
+    <ConfigVersion Value="" PlatformID="3" />
+    <ConfigVersion Value="" PlatformID="11" />
+  </ConfigVersions>
+  <ReleaseSendLogChance Hack="1" Exc="1" NuR="1" Dbl="1" Alg="0" />
+  <BalancerItemSortType Value="1" />
+  <UserFractioning Chance="0.399" />
+  <LocalGemsLimit Value="10000" />
+  <key Value="{crkVRKXTr24dMeioqDZ1wuyJi7nepR9fwgZ1dmfvvrQ=}" />
+  <IgnoredExceptions>
+    <ExcData PartName="" PartStackTrace="" PartLog="" />
+    <ExcData PartName="" />
+    <ExcData />
+    <ExcData PartName="Socket" PartStackTrace="CUDLR" PartLog="address" />
+    <ExcData PartName="Exc1" PartStackTrace="RaidBetaLog" PartLog="" />
+    <ExcData PartName="Exc2" PartStackTrace="" PartLog="" />
+    <ExcData PartName="Exc2" PartStackTrace="" PartLog="text" />
+    <ExcData PartName="Exc2_AND" PartStackTrace="" PartLog="" Platform="And" />
+    <ExcData PartName="Exc2_IOS" PartStackTrace="" PartLog="" Platform="IOS" />
+  </IgnoredExceptions>
+  <Variables>
+    <item Name="EventStart" Value="1714208400" PlatformID="1,2,3,11,13" MinVersion="2.36.5" />
+    <item Name="EventEnd" Value="1736129800" PlatformID="1,2,3,11,13" MinVersion="2.36.5" />
+    <item Name="Fall24Offer_Start" Value="1714208400" PlatformID="1,2,3,11,13" MinVersion="2.36.5" />
+    <item Name="Fall24Offer_End" Value="1736129800" PlatformID="1,2,3,11,13" MinVersion="2.36.5" />
+    <item Name="Fall24OfferDisenabled" Value="0" PlatformID="1,2,3,3,11" MinVersion="2.32.0" />
+
+    <item Name="EventIndex" Value="1" PlatformID="1,2,3,11,13" MinVersion="2.33.0" />
+    <item Name="MiniEventStart" Value="1714208400" PlatformID="1,2,3,11,13" MinVersion="2.36.5" />
+    <item Name="MiniEventEnd" Value="1715763600" PlatformID="1,2,3,11,13" MinVersion="2.36.5" />
+    <item Name="MiniEventIndex" Value="3" PlatformID="1,2,3,11,13" MinVersion="2.33.0" />
+    <item Name="OfferDisenabled" Value="1" PlatformID="1,2,3,3,11" MinVersion="2.32.0" />
+    <item Name="NotEnoughCurrencyColor" Value="#9b1c07" />
+    <item Name="AutoShowRaidDailyWindow" Value="1" />
+    <item Name="SurvivalRestartLimitPerFight" Value="1" />
+    <item Name="SurvivalRestartTimerValue" Value="10" />
+    <item Name="JuniorLotteryTime" Value="86400" PlatformID="1,2,3,11" MinVersion="2.15.0" />
+    <item Name="Fungus24Offer_Enabled" Value="0" PlatformID="1,2,3,11" MinVersion="2.32.0" />
+  </Variables>
+  <WebhookBasedStore MetadataCheck="1">
+    <!-- Umoney works only with UseMainStoreMeta="1" -->
+    <Umoney Countries="RU" OpenUrlSchemes="mirpay,sberpay,tinkoffbank,bank100000000004" UseMainStoreMeta="1" MaxRetryCount="2" />
+    <Xsolla Countries="" UseMainStoreMeta="0" MaxRetryCount="2" />
+  </WebhookBasedStore>
+  <platform>
+    <item PlatformID="1" Name="iOS" />
+    <item PlatformID="2" Name="Android" />
+    <item PlatformID="3" Name="Simulator" />
+    <item PlatformID="9" Name="Samsung" />
+    <item PlatformID="11" Name="Huawei" />
+    <item PlatformID="13" Name="iOSChina" />
+  </platform>
+  <versions>
+    <item ID="8" PlatformID="2" Version="2.1.0" ReleaseDate="" />
+    <item ID="9" PlatformID="1" Version="2.1.0" ReleaseDate="" />
+    <item ID="10" PlatformID="3" Version="2.1.0" ReleaseDate="" />
+    <item ID="11" PlatformID="9" Version="" ReleaseDate="" />
+    <item ID="12" PlatformID="11" Version="" ReleaseDate="" />
+    <item ID="13" PlatformID="13" Version="" ReleaseDate="" />
+  </versions>
+  <gamedata>
+  </gamedata>
+  <IconDojo>
+    <Icon Type="Free" AnimPath="UI/Textures/Free/FreeGemsAd.Free" PlatformID="1,2,3" url="" EndDate="" StartDate="" ImageURL="" ImageURLHash="" ItemName="Tapjoy" />
+    <Icon Type="Roulette" PlatformID="1,2,3,11" ItemName="TicketMysteryBox" ShowGlow="1" BlockBy="SF3" />
+    <Icon Type="SF3" PlatformID="1,2,3,11" url="https://nekki-shades.onelink.me/cXu0/auxuabxk" EndDate="1706976000" StartDate="0" ImageURL="https://assets.nekkimobile.ru/shadowfight/icons/shades/ShadesButton.png" ImageURLHash="" />
+  </IconDojo>
+  <news>
+  </news>
+  <video>
+    <!--local-->
+    <item ID="135" Name="shadow_gate.mp4" Url="https://assets.nekkimobile.ru/shadowfight/video/shadow_gate.mp4" MinVersion="2.0.0" PlatformID="3" Attach="0" ObjectNumber="3" Active="0" Reload="0" Size="6324209" Hash="c48c9a2505745193d137dc742ad24418" />
+    <item ID="135" Name="Shadow_fight_ending.mp4" Url="https://assets.nekkimobile.ru/shadowfight/video/Shadow_fight_ending.mp4" MinVersion="2.0.0" PlatformID="3" Attach="0" ObjectNumber="2" Active="0" Reload="0" Size="6174357" Hash="2fb0f27957f4147352f541774893fc24" />
+    <!--android-->
+    <item ID="135" Name="shadow_gate.mp4" Url="https://assets.nekkimobile.ru/shadowfight/video/shadow_gate.mp4" MinVersion="2.0.0" PlatformID="2" Attach="0" ObjectNumber="3" Active="0" Reload="0" Size="6324209" Hash="c48c9a2505745193d137dc742ad24418" />
+    <item ID="135" Name="Shadow_fight_ending.mp4" Url="https://assets.nekkimobile.ru/shadowfight/video/Shadow_fight_ending.mp4" MinVersion="2.0.0" PlatformID="2" Attach="0" ObjectNumber="2" Active="0" Reload="0" Size="6174357" Hash="2fb0f27957f4147352f541774893fc24" />
+    <!--iOS-->
+    <item ID="135" Name="shadow_gate.mp4" Url="https://assets.nekkimobile.ru/shadowfight/video/shadow_gate.mp4" MinVersion="2.0.0" PlatformID="1" Attach="0" ObjectNumber="3" Active="0" Reload="0" Size="6324209" Hash="c48c9a2505745193d137dc742ad24418" />
+    <item ID="135" Name="Shadow_fight_ending.mp4" Url="https://assets.nekkimobile.ru/shadowfight/video/Shadow_fight_ending.mp4" MinVersion="2.0.0" PlatformID="1" Attach="0" ObjectNumber="2" Active="0" Reload="0" Size="6174357" Hash="2fb0f27957f4147352f541774893fc24" />
+    <!--samsung-->
+    <item ID="135" Name="shadow_gate.mp4" Url="https://assets.nekkimobile.ru/shadowfight/video/shadow_gate.mp4" MinVersion="1.0.0" PlatformID="9" Attach="0" ObjectNumber="3" Active="0" Reload="0" Size="6324209" Hash="c48c9a2505745193d137dc742ad24418" />
+    <item ID="135" Name="Shadow_fight_ending.mp4" Url="https://assets.nekkimobile.ru/shadowfight/video/Shadow_fight_ending.mp4" MinVersion="1.0.0" PlatformID="9" Attach="0" ObjectNumber="2" Active="0" Reload="0" Size="6174357" Hash="2fb0f27957f4147352f541774893fc24" />
+    <!--huawei-->
+    <item ID="135" Name="shadow_gate.mp4" Url="https://assets.nekkimobile.ru/shadowfight/video/shadow_gate.mp4" MinVersion="1.0.0" PlatformID="11" Attach="0" ObjectNumber="3" Active="0" Reload="0" Size="6324209" Hash="c48c9a2505745193d137dc742ad24418" />
+    <item ID="135" Name="Shadow_fight_ending.mp4" Url="https://assets.nekkimobile.ru/shadowfight/video/Shadow_fight_ending.mp4" MinVersion="1.0.0" PlatformID="11" Attach="0" ObjectNumber="2" Active="0" Reload="0" Size="6174357" Hash="2fb0f27957f4147352f541774893fc24" />
+    <!--china_iOS-->
+    <item ID="135" Name="shadow_gate.mp4" Url="https://assets.nekkimobile.ru/shadowfight/video/shadow_gate.mp4" MinVersion="1.0.0" PlatformID="13" Attach="0" ObjectNumber="3" Active="0" Reload="0" Size="6324209" Hash="c48c9a2505745193d137dc742ad24418" />
+    <item ID="135" Name="Shadow_fight_ending.mp4" Url="https://assets.nekkimobile.ru/shadowfight/video/Shadow_fight_ending.mp4" MinVersion="1.0.0" PlatformID="13" Attach="0" ObjectNumber="2" Active="0" Reload="0" Size="6174357" Hash="2fb0f27957f4147352f541774893fc24" />
+  </video>
+  <settings>
+    <item ID="1" LogFrequency="64" LoginFrequency="900" DumpServerGet="https://shadowfight.dumps.nekkimobile.ru/get.php" DumpServerPut="https://shadowfight.dumps.nekkimobile.ru/put.php" ServerTimeUrl="https://time-server.nekkimobile.ru/time.json" CounterVideo="10" CashbackCounterVideo="10" EnergyCounterVideo="" MultiplierCounterVideo="20" SkipDeliveryCounterVideo="20" LotterySpinCounterVideo="20" MultiplyLotteryCounter="50" SurvivalRestartCounterVideo="3" RaidFightCounterVideo="10" />
+    <time>
+      <item GetUrl="https://time-server.nekkimobile.ru/time.json" />
+    </time>
+    <dumps>
+      <item PutUrl="https://sf2ios-dumps.nekkimobile.ru/put.new.php" GetUrl="https://sf2ios-dumps.nekkimobile.ru/get.new.php" DumpSendInterval="1200" PlatformID="1" />
+      <item PutUrl="https://shadowfight-dumps.nekkimobile.ru/put.new.php" GetUrl="https://shadowfight-dumps.nekkimobile.ru/get.new.php" DumpSendInterval="1200" PlatformID="2" />
+      <item PutUrl="https://shadowfight.dumps.nekkimobile.ru/put.php" GetUrl="https://shadowfight.dumps.nekkimobile.ru/get.php" DumpSendInterval="1200" PlatformID="3" />
+      <item PutUrl="https://sf2samsung-dumps.nekkimobile.ru/put.new.php" GetUrl="https://sf2samsung-dumps.nekkimobile.ru/get.new.php" DumpSendInterval="1200" PlatformID="9" />
+      <item PutUrl="https://sf2huawei-dumps.nekkimobile.ru/put.new.php" GetUrl="https://sf2huawei-dumps.nekkimobile.ru/get.new.php" DumpSendInterval="1200" PlatformID="11" />
+      <item PutUrl="https://sf2china-ios-dumps.nekkimobile.ru/put.new.php" GetUrl="https://sf2china-ios-dumps.nekkimobile.ru/get.new.php" DumpSendInterval="1200" PlatformID="13" />
+    </dumps>
+    <server>
+      <item PutUrl="https://sf2ios.nekkimobile.ru/put.php" GetUrl="https://sf2ios.nekkimobile.ru/get.php" PlatformID="1" />
+      <item PutUrl="https://shadowfight.nekkimobile.ru/put.php" GetUrl="https://shadowfight.nekkimobile.ru/get.php" PlatformID="2" />
+      <item PutUrl="https://shadowfight.nekkimobile.ru/put.php" GetUrl="https://shadowfight.nekkimobile.ru/get.php" PlatformID="3" />
+      <item PutUrl="https://sf2samsung.nekkimobile.ru/put.php" GetUrl="https://sf2samsung.nekkimobile.ru/get.php" PlatformID="9" />
+      <item PutUrl="https://sf2huawei.nekkimobile.ru/put.php" GetUrl="https://sf2huawei.nekkimobile.ru/get.php" PlatformID="11" />
+      <item PutUrl="https://sf2china-ios.nekkimobile.ru/put.php" GetUrl="https://sf2china-ios.nekkimobile.ru/get.php" PlatformID="13" />
+    </server>
+    <verification Url="" Timeout="15000" MaxRetry="2" Frequency="1" />
+    <raids configUrl="https://github.com/lharmonie07/raid_configs/raw/refs/heads/main/raid_configs_all.zip" />
+    <ledger Url="" Timeout="5000" MaxRetry="2" />
+    <notifications>
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="1" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="2" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="3" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="9" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="11" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="13" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="102" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="103" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="104" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="105" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="106" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="107" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="108" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="109" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="110" />
+    </notifications>
+    <payment>
+      <item PlatformID="2" XsollaCheck="1" XsollaDeviceRegionCheck="1" />
+    </payment>
+    <blame>
+      <item Enabled="1" PlatformID="2,3" />
+    </blame>
+  </settings>
+  <packs>
+    <!--local 2.0.0-->
+    <item Name="ZONE_2" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_2_13_02_2019_local" MinVersion="2.0.0" PlatformID="3" Attach="1" Active="0" Reload="0" Size="16890131" Hash="CB55D8C477B5129F8CE9608D0B70A7E6" />
+    <item Name="ZONE_3" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_3_13_02_2019_local" MinVersion="2.0.0" PlatformID="3" Attach="1" Active="0" Reload="0" Size="13797496" Hash="3EF0E4E73C64B0BA99726843AAC04AC9" />
+    <item Name="ZONE_4" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_4_13_02_2019_local" MinVersion="2.0.0" PlatformID="3" Attach="1" Active="0" Reload="0" Size="10964018" Hash="CCE87ABA16D2CB707D6D98ED53EBB592" />
+    <item Name="ZONE_5" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_5_13_02_2019_local" MinVersion="2.0.0" PlatformID="3" Attach="1" Active="0" Reload="0" Size="12765893" Hash="E65B1DEBB5F03E6355DB7A048F749D2A" />
+    <item Name="ZONE_6" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_6_13_02_2019_local" MinVersion="2.0.0" PlatformID="3" Attach="1" Active="0" Reload="0" Size="22138115" Hash="A32A998EB5AE8EC70FE4D840B1256D35" />
+    <item Name="ZONE_IM" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_im_13_02_2019_local" MinVersion="2.0.0" PlatformID="3" Attach="1" Active="0" Reload="0" Size="5124916" Hash="44F5E15B4A1F816216E57D1A66F8ED91" />
+    <item Name="ZONE_7" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_7_13_02_2019_local" MinVersion="2.0.0" PlatformID="3" Attach="1" Active="0" Reload="0" Size="10247789" Hash="B352ABBA0A5FCDF0C051B39B4E2CDDE9" />
+    <item Name="ZONE_7_2" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_7_2_13_02_2019_local" MinVersion="2.0.0" PlatformID="3" Attach="1" Active="0" Reload="0" Size="2318062" Hash="52C97CB3C6C0C7166C6D662B7DCACA61" />
+    <item Name="ZONE_7_3" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_7_3_13_02_2019_local" MinVersion="2.0.0" PlatformID="3" Attach="1" Active="0" Reload="0" Size="13376424" Hash="568DD74AF480D1CFA0B87A959A1FBFE0" />
+    <item Name="MODELS" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/models_13_02_2019_local" MinVersion="2.0.0" PlatformID="3" Attach="1" Active="0" Reload="0" Size="12658421" Hash="3BD6AC4837A6895FD4A0ABC908C7E91A" />
+    <item Name="CLANS" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/clans_13_02_2019_local" MinVersion="2.0.0" PlatformID="3" Attach="1" Active="0" Reload="0" Size="1000000" Hash="FAC23A3EC722FF587F184032B99FBE6D" />
+    <item Name="ZONE_RAID" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_raid_13_02_2019_local" MinVersion="2.0.0" PlatformID="3" Attach="1" Active="0" Reload="0" Size="160985126" Hash="FB68990325B622F582DD4897FDE08523" />
+    <item Name="Asian" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/fonts/asian_13_02_2019_local" MinVersion="2.0.0" PlatformID="3" Active="1" Attach="1" Hash="3CF87097B4BC1390515A6FC7D4AFFA30" Size="15134873" />
+    <item Name="ZONE_2" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_2_13_02_2019_android" MinVersion="2.0.0" PlatformID="2" Attach="1" Active="0" Reload="0" Size="21031582" Hash="65F3534316EF41038F3A6E13A992D5F0" />
+    <item Name="ZONE_3" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_3_13_02_2019_android" MinVersion="2.0.0" PlatformID="2" Attach="1" Active="0" Reload="0" Size="16666921" Hash="03C6D5427BA03FA77BA844DF619B52C5" />
+    <item Name="ZONE_4" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_4_13_02_2019_android" MinVersion="2.0.0" PlatformID="2" Attach="1" Active="0" Reload="0" Size="13782235" Hash="B24F999FC553B7571715A05F0F71E002" />
+    <item Name="ZONE_5" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_5_13_02_2019_android" MinVersion="2.0.0" PlatformID="2" Attach="1" Active="0" Reload="0" Size="16419863" Hash="4A38393C7D9A7415FCEB82FEC97BAA5B" />
+    <item Name="ZONE_6" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_6_13_02_2019_android" MinVersion="2.0.0" PlatformID="2" Attach="1" Active="0" Reload="0" Size="26686622" Hash="F5D8F282137F66876050A9212A87C23A" />
+    <item Name="ZONE_IM" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_im_13_02_2019_android" MinVersion="2.0.0" PlatformID="2" Attach="1" Active="0" Reload="0" Size="3255166" Hash="8AB7FEC1DAF8208E95B7E184DA394508" />
+    <item Name="ZONE_7" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_7_13_02_2019_android" MinVersion="2.0.0" PlatformID="2" Attach="1" Active="0" Reload="0" Size="12511824" Hash="A5E0DE17D0C18170E6DD4D1522C14627" />
+    <item Name="ZONE_7_2" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_7_2_13_02_2019_android" MinVersion="2.0.0" PlatformID="2" Attach="1" Active="0" Reload="0" Size="3755413" Hash="434199482F0F0EA5C418B189FA94122D" />
+    <item Name="ZONE_7_3" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_7_3_13_02_2019_android" MinVersion="2.0.0" PlatformID="2" Attach="1" Active="0" Reload="0" Size="15305491" Hash="75A75177A7340A014C2EBDEF09CD1ED3" />
+    <item Name="MODELS" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/models_13_02_2019_android" MinVersion="2.0.0" PlatformID="2" Attach="1" Active="0" Reload="0" Size="12658318" Hash="E6B48D3F338088BF2FB8BFAEE50D4627" />
+    <item Name="CLANS" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/clans_13_02_2019_android" MinVersion="2.0.0" PlatformID="2" Attach="1" Active="0" Reload="0" Size="1000000" Hash="968FE1A0D32CD5617EA574147820CBA7" />
+    <item Name="ZONE_RAID" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/SF2_free/zone_raid_13_02_2019_android" MinVersion="2.0.0" PlatformID="2" Attach="1" Active="0" Reload="0" Size="175182376" Hash="4458C35C332D7BA3EFD4A8DC35585329" />
+    <item Name="Asian" Url="https://assets.nekkimobile.ru/shadowfight/unity_packs/fonts/asian_13_02_2019_android" MinVersion="2.0.0" PlatformID="2" Active="1" Attach="1" Hash="A8746BEFEFD3CC92C9FC20FDFDC78F98" Size="15170240" />
+  </packs>
+  <price>
+    <!--android-->
+    <item ID="10" Name="Pile_Gems" Price="2.99" ProductID="com.nekki.shadowfight.gemspack1" Amount="100.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="1722519291" EndDate="1754055291" NewAmount="130" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="0" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="11" Name="Casket_Gems" Price="9.99" ProductID="com.nekki.shadowfight.gemspack2" Amount="400.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="520" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="COMMON_RUBY_DONATE_CASKET" AddPercent="20" RUPrice="349.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="11" Name="Casket_Gems_Zone7" Price="9.99" ProductID="com.nekki.shadowfight.gemspack2" Amount="400.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="520" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_7_DONATE_CASKET" AddPercent="20" RUPrice="349.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="44" Name="Bag_Gems" Price="19.99" ProductID="com.nekki.shadowfight.gemspack4" Amount="900.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" NewProductID="" StartDate="1722519291" NewAmount="1200" NewAddAmount="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="COMMON_RUBY_DONATE" AddPercent="35" RUPrice="699.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="44" Name="Bag_Gems_Zone7" Price="19.99" ProductID="com.nekki.shadowfight.gemspack4" Amount="900.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" NewProductID="" StartDate="1722519291" NewAmount="1200" NewAddAmount="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_7_DONATE" AddPercent="35" RUPrice="699.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="12" Name="Chest_Gems" Price="49.99" ProductID="com.nekki.shadowfight.gemspack3" Amount="2500.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="1722519291" EndDate="1754055291" NewAmount="3250" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="COMMON_RUBY_DONATE" AddPercent="50" RUPrice="1749.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="12" Name="Chest_Gems_Zone7" Price="49.99" ProductID="com.nekki.shadowfight.gemspack3" Amount="2500.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="1722519291" EndDate="1754055291" NewAmount="3250" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_7_DONATE" AddPercent="50" RUPrice="1749.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="4" Name="Pile_Gems_sale30" Price="1.99" ProductID="com.nekki.shadowfight.gemspack1_30" Amount="0.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="" EndDate="" NewAmount="" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="0" RUPrice="69.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="5" Name="Casket_Gems_sale30" Price="6.99" ProductID="com.nekki.shadowfight.gemspack2_30" Amount="400.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="" EndDate="" NewAmount="" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="COMMON_RUBY_DONATE_CASKET" AddPercent="20" RUPrice="244.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="5" Name="Casket_Gems_Zone7_sale30" Price="6.99" ProductID="com.nekki.shadowfight.gemspack2_30" Amount="400.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="" EndDate="" NewAmount="" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_7_DONATE_CASKET" AddPercent="20" RUPrice="244.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="28" Name="Bag_Gems_sale30" Price="13.99" ProductID="com.nekki.shadowfight.gemspack4_30" Amount="900.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="" EndDate="" NewAmount="" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="COMMON_RUBY_DONATE" AddPercent="35" RUPrice="489.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="28" Name="Bag_Gems_Zone7_sale30" Price="13.99" ProductID="com.nekki.shadowfight.gemspack4_30" Amount="900.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="" EndDate="" NewAmount="" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_7_DONATE" AddPercent="35" RUPrice="489.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="6" Name="Chest_Gems_sale30" Price="34.99" ProductID="com.nekki.shadowfight.gemspack3_30" Amount="2500.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="" EndDate="" NewAmount="" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="COMMON_RUBY_DONATE" AddPercent="50" RUPrice="1224.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="6" Name="Chest_Gems_Zone7_sale30" Price="34.99" ProductID="com.nekki.shadowfight.gemspack3_30" Amount="2500.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="" EndDate="" NewAmount="" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_7_DONATE" AddPercent="50" RUPrice="1224.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="10" Name="Pile_Gems_s" Price="2.99" ProductID="com.nekki.shadowfight.gemspack1_s" Amount="130.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="" EndDate="" NewAmount="" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="0" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="11" Name="Casket_Gems_s" Price="9.99" ProductID="com.nekki.shadowfight.gemspack2_s" Amount="520.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="" EndDate="" NewAmount="" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="20" RUPrice="349.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="44" Name="Bag_Gems_s" Price="19.99" ProductID="com.nekki.shadowfight.gemspack4_s" Amount="1170.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="" EndDate="" NewProductID="" NewAmount="" NewAddAmount="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="35" RUPrice="699.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="12" Name="Chest_Gems_s" Price="49.99" ProductID="com.nekki.shadowfight.gemspack3_s" Amount="3250.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" StartDate="" EndDate="" NewAmount="" NewAddAmount="" NewProductID="" NewPrice="" Currency="2" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="50" RUPrice="1749.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="7" Name="Pile_Coins" Price="0.99" ProductID="com.nekki.shadowfight.coinspack1" Amount="1000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="2000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_1_DONATE" AddPercent="0" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="8" Name="Bag_Coins" Price="4.99" ProductID="com.nekki.shadowfight.coinspack2" Amount="7000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="10500" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_1_DONATE" AddPercent="40" RUPrice="174.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="9" Name="Chest_Coins" Price="19.99" ProductID="com.nekki.shadowfight.coinspack3" Amount="40000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="60000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_1_DONATE" AddPercent="100" RUPrice="699.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="29" Name="Pile_Coins_2" Price="0.99" ProductID="com.nekki.shadowfight.coinspack1" Amount="5000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="10000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_2_DONATE" AddPercent="0" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="30" Name="Pile_Coins_3" Price="0.99" ProductID="com.nekki.shadowfight.coinspack1" Amount="20000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="40000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_3_DONATE" AddPercent="0" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="31" Name="Pile_Coins_4" Price="0.99" ProductID="com.nekki.shadowfight.coinspack1" Amount="80000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="160000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_4_DONATE" AddPercent="0" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="32" Name="Pile_Coins_5" Price="0.99" ProductID="com.nekki.shadowfight.coinspack1" Amount="400000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="800000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_5_DONATE" AddPercent="0" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="33" Name="Pile_Coins_6" Price="0.99" ProductID="com.nekki.shadowfight.coinspack1" Amount="2000000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="4000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_6_DONATE" AddPercent="0" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="34" Name="Bag_Coins_2" Price="4.99" ProductID="com.nekki.shadowfight.coinspack2" Amount="35000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="52500" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_2_DONATE" AddPercent="40" RUPrice="174.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="35" Name="Bag_Coins_3" Price="4.99" ProductID="com.nekki.shadowfight.coinspack2" Amount="140000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="210000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_3_DONATE" AddPercent="40" RUPrice="174.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="36" Name="Bag_Coins_4" Price="4.99" ProductID="com.nekki.shadowfight.coinspack2" Amount="560000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="840000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_4_DONATE" AddPercent="40" RUPrice="174.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="37" Name="Bag_Coins_5" Price="4.99" ProductID="com.nekki.shadowfight.coinspack2" Amount="2800000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="4200000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_5_DONATE" AddPercent="40" RUPrice="174.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="38" Name="Bag_Coins_6" Price="4.99" ProductID="com.nekki.shadowfight.coinspack2" Amount="14000000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="21000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_6_DONATE" AddPercent="40" RUPrice="174.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="39" Name="Chest_Coins_2" Price="19.99" ProductID="com.nekki.shadowfight.coinspack3" Amount="200000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="300000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_2_DONATE" AddPercent="100" RUPrice="699.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="40" Name="Chest_Coins_3" Price="19.99" ProductID="com.nekki.shadowfight.coinspack3" Amount="800000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="1200000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_3_DONATE" AddPercent="100" RUPrice="699.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="41" Name="Chest_Coins_4" Price="19.99" ProductID="com.nekki.shadowfight.coinspack3" Amount="3200000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="4800000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_4_DONATE" AddPercent="100" RUPrice="699.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="42" Name="Chest_Coins_5" Price="19.99" ProductID="com.nekki.shadowfight.coinspack3" Amount="16000000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="24000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_5_DONATE" AddPercent="100" RUPrice="699.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="43" Name="Chest_Coins_6" Price="19.99" ProductID="com.nekki.shadowfight.coinspack3" Amount="80000000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="120000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_6_DONATE" AddPercent="100" RUPrice="699.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="43" Name="Chest_Coins_Zone7" Price="19.99" ProductID="com.nekki.shadowfight.coinspack3" Amount="64000000000000.00" AddAmount="0" SpenderTypeID="" PlatformID="2" ProductType="1" EndDate="1754055291" StartDate="1722519291" NewAmount="96000000000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_7_DONATE" AddPercent="100" RUPrice="699.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="49" Name="Pile_Coins_Platinum" Price="0.99" ProductID="com.nekki.shadowfight.coinspack1" Amount="60000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="120000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="IM_DONATE" AddPercent="0" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="50" Name="Pile_Coins_Platinum_2" Price="0.99" ProductID="com.nekki.shadowfight.coinspack1" Amount="320000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="640000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="IM_DONATE_2" AddPercent="0" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="51" Name="Pile_Coins_Platinum_3" Price="0.99" ProductID="com.nekki.shadowfight.coinspack1" Amount="1760000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="3520000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="IM_DONATE_3" AddPercent="0" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="52" Name="Pile_Coins_Platinum_4" Price="0.99" ProductID="com.nekki.shadowfight.coinspack1" Amount="9600000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="19200000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="IM_DONATE_4" AddPercent="0" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="53" Name="Pile_Coins_Platinum_5" Price="0.99" ProductID="com.nekki.shadowfight.coinspack1" Amount="52000000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="104000000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="IM_DONATE_5" AddPercent="0" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="54" Name="Pile_Coins_Platinum_6" Price="0.99" ProductID="com.nekki.shadowfight.coinspack1" Amount="280000000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="560000000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="IM_DONATE_6" AddPercent="0" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="54" Name="Pile_Coins_Zone7" Price="0.99" ProductID="com.nekki.shadowfight.coinspack1" Amount="3200000000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="6400000000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_7_DONATE" AddPercent="0" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="61" Name="Bag_Coins_Platinum" Price="4.99" ProductID="com.nekki.shadowfight.coinspack2" Amount="420000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="630000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="IM_DONATE" AddPercent="40" RUPrice="174.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="62" Name="Bag_Coins_Platinum_2" Price="4.99" ProductID="com.nekki.shadowfight.coinspack2" Amount="2240000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="3360000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="IM_DONATE_2" AddPercent="40" RUPrice="174.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="63" Name="Bag_Coins_Platinum_3" Price="4.99" ProductID="com.nekki.shadowfight.coinspack2" Amount="12320000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="18480000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="IM_DONATE_3" AddPercent="40" RUPrice="174.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="64" Name="Bag_Coins_Platinum_4" Price="4.99" ProductID="com.nekki.shadowfight.coinspack2" Amount="67200000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="100800000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="IM_DONATE_4" AddPercent="40" RUPrice="174.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="65" Name="Bag_Coins_Platinum_5" Price="4.99" ProductID="com.nekki.shadowfight.coinspack2" Amount="364000000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="546000000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="IM_DONATE_5" AddPercent="40" RUPrice="174.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="66" Name="Bag_Coins_Platinum_6" Price="4.99" ProductID="com.nekki.shadowfight.coinspack2" Amount="1960000000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="2940000000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="IM_DONATE_6" AddPercent="40" RUPrice="174.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="66" Name="Bag_Coins_Zone7" Price="4.99" ProductID="com.nekki.shadowfight.coinspack2" Amount="16000000000000.00" AddAmount="0" SpenderTypeID="" ProductType="1" PlatformID="2" EndDate="1754055291" StartDate="1722519291" NewAmount="24000000000000" NewAddAmount="" NewProductID="" NewPrice="" Currency="1" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="ZONE_7_DONATE" AddPercent="40" RUPrice="174.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="47" Name="Pack_Starter" Price="0.99" ProductID="com.nekki.shadowfight.starterpack" PlatformID="2" ProductType="2" Currency="3" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="48" Name="Unlimited_Energy" Price="19.99" ProductID="com.nekki.shadowfight.unlimitedenergy_sale" PlatformID="2" ProductType="2" SpenderTypeID="" EndDate="" NewProductID="" NewPrice="" Currency="4" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="699.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="50" Name="Premium_Pack_Zone1" Price="9.99" ProductID="com.nekki.shadowfight.starterpack_super" PlatformID="2" ProductType="2" Currency="5" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="349.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="51" Name="Premium_Pack_Zone2" Price="9.99" ProductID="com.nekki.shadowfight.starterpack_super_zone2" PlatformID="2" ProductType="2" Currency="6" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="349.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="52" Name="EventPack" Price="2.99" ProductID="com.nekki.shadowfight.event_pack_offer" PlatformID="2" ProductType="2" Currency="7" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="53" Name="Premium_Pack_Zone3" Price="9.99" ProductID="com.nekki.shadowfight.starterpack_super_zone3" PlatformID="2" ProductType="2" Currency="8" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="349.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="55" Name="Premium_Pack_Zone4" Price="10.99" ProductID="com.nekki.shadowfight.starterpack_super_zone4" PlatformID="2" ProductType="2" Currency="9" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="384.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="56" Name="Premium_Pack_Zone5" Price="10.99" ProductID="com.nekki.shadowfight.starterpack_super_zone5" PlatformID="2" ProductType="2" Currency="10" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="384.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="57" Name="Premium_Pack_Zone6" Price="10.99" ProductID="com.nekki.shadowfight.starterpack_super_zone6" PlatformID="2" ProductType="2" Currency="11" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="384.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="58" Name="NY21EventPack" Price="1.99" ProductID="com.nekki.shadowfight.ny21_pack_offer" PlatformID="2" ProductType="2" Currency="12" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="69.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="59" Name="CHNY21EventPack" Price="2.99" ProductID="com.nekki.shadowfight.chny21_pack_offer" PlatformID="2" ProductType="2" Currency="13" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="60" Name="IE21EventPack" Price="3.99" ProductID="com.nekki.shadowfight.ie21_pack_offer" PlatformID="2" ProductType="2" Currency="14" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="61" Name="AE21EventPack" Price="2.99" ProductID="com.nekki.shadowfight.ae21_pack_offer" PlatformID="2" ProductType="2" Currency="15" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="62" Name="Pile_ForgeMaterial_2" Price="0.99" ProductID="com.nekki.shadowfight.forgepack2" PlatformID="2" ProductType="1" Amount="800" Currency="16" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="63" Name="Pile_ForgeMaterial_3" Price="0.99" ProductID="com.nekki.shadowfight.forgepack3" PlatformID="2" ProductType="1" Amount="2200" Currency="16" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="64" Name="Pile_ForgeMaterial_4" Price="0.99" ProductID="com.nekki.shadowfight.forgepack4" PlatformID="2" ProductType="1" Amount="6500" Currency="16" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="65" Name="Pile_ForgeMaterial_5" Price="0.99" ProductID="com.nekki.shadowfight.forgepack5" PlatformID="2" ProductType="1" Amount="20000" Currency="16" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="66" Name="Pile_ForgeMaterial_6" Price="0.99" ProductID="com.nekki.shadowfight.forgepack6" PlatformID="2" ProductType="1" Amount="57000" Currency="16" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="67" Name="Pile_ForgeMaterial_7_1" Price="0.99" ProductID="com.nekki.shadowfight.forgepack7_1" PlatformID="2" ProductType="1" Amount="450000" Currency="16" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="68" Name="Pile_ForgeMaterial_7_2" Price="0.99" ProductID="com.nekki.shadowfight.forgepack7_2" PlatformID="2" ProductType="1" Amount="933000" Currency="16" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="69" Name="Pile_ForgeMaterial_7_3" Price="0.99" ProductID="com.nekki.shadowfight.forgepack7_3" PlatformID="2" ProductType="1" Amount="1140000" Currency="16" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="70" Name="Pile_ForgeMaterial_IM" Price="0.99" ProductID="com.nekki.shadowfight.forgepackim" PlatformID="2" ProductType="1" Amount="110000" Currency="16" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="34.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="71" Name="Summer21EventPack" Price="2.99" ProductID="com.nekki.shadowfight.summer21_pack_offer" PlatformID="2" ProductType="2" Currency="19" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="72" Name="Premium_Pack_WeaponOfferZone1" Price="2.99" ProductID="com.nekki.shadowfight.weapon_offer_zone1" PlatformID="2" ProductType="2" Currency="20" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="73" Name="Premium_Pack_WeaponOfferZone2" Price="2.99" ProductID="com.nekki.shadowfight.weapon_offer_zone2" PlatformID="2" ProductType="2" Currency="21" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="74" Name="Premium_Pack_WeaponOfferZone3" Price="2.99" ProductID="com.nekki.shadowfight.weapon_offer_zone3" PlatformID="2" ProductType="2" Currency="22" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="75" Name="Premium_Pack_WeaponOfferZone4" Price="2.99" ProductID="com.nekki.shadowfight.weapon_offer_zone4" PlatformID="2" ProductType="2" Currency="23" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="76" Name="Premium_Pack_WeaponOfferZone5" Price="2.99" ProductID="com.nekki.shadowfight.weapon_offer_zone5" PlatformID="2" ProductType="2" Currency="24" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="77" Name="Premium_Pack_WeaponOfferZone6" Price="2.99" ProductID="com.nekki.shadowfight.weapon_offer_zone6" PlatformID="2" ProductType="2" Currency="25" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="78" Name="RaidBeginnerPack" Price="2.99" ProductID="com.nekki.shadowfight.raid_beginner_pack" PlatformID="2" ProductType="2" Currency="26" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="79" Name="CNY22EventPack" Price="3.99" ProductID="com.nekki.shadowfight.chny22_pack_offer" PlatformID="2" ProductType="2" Currency="27" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="139.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="80" Name="BoatFestival22Pack" Price="2.99" ProductID="com.nekki.shadowfight.boat_festival_22_pack_offer" PlatformID="2" ProductType="2" Currency="28" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="81" Name="Premium_Pack_ZoneRaid4" Price="14.99" ProductID="com.nekki.shadowfight.premium_pack_zoneraid4" PlatformID="2" ProductType="2" Currency="29" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="599" RUSign="₽" RUSignCode="RUB" />
+    <item ID="82" Name="Anniversary10Th_1" Price="2.99" ProductID="com.nekki.shadowfight.anniversary10_th_1" PlatformID="2" ProductType="2" Currency="30" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="83" Name="Anniversary10Th_2" Price="5.99" ProductID="com.nekki.shadowfight.anniversary10_th_2" PlatformID="2" ProductType="2" Currency="31" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="259" RUSign="₽" RUSignCode="RUB" />
+    <item ID="84" Name="Anniversary10Th_3" Price="8.99" ProductID="com.nekki.shadowfight.anniversary10_th_3" PlatformID="2" ProductType="2" Currency="32" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="85" Name="Anniversary10Th_4" Price="5.99" ProductID="com.nekki.shadowfight.anniversary10_th_4" PlatformID="2" ProductType="2" Currency="33" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="259" RUSign="₽" RUSignCode="RUB" />
+    <item ID="86" Name="Anniversary10Th_5" Price="8.99" ProductID="com.nekki.shadowfight.anniversary10_th_5" PlatformID="2" ProductType="2" Currency="34" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="87" Name="Anniversary10Th_6" Price="2.99" ProductID="com.nekki.shadowfight.anniversary10_th_6" PlatformID="2" ProductType="2" Currency="35" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="88" Name="Anniversary10Th_7" Price="2.99" ProductID="com.nekki.shadowfight.anniversary10_th_7" PlatformID="2" ProductType="2" Currency="36" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="89" Name="Anniversary10Th_8" Price="5.99" ProductID="com.nekki.shadowfight.anniversary10_th_8" PlatformID="2" ProductType="2" Currency="37" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="259" RUSign="₽" RUSignCode="RUB" />
+    <item ID="90" Name="Anniversary10Th_9" Price="8.99" ProductID="com.nekki.shadowfight.anniversary10_th_9" PlatformID="2" ProductType="2" Currency="38" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="91" Name="Anniversary10Th_10" Price="2.99" ProductID="com.nekki.shadowfight.anniversary10_th_10" PlatformID="2" ProductType="2" Currency="39" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="92" Name="Anniversary10Th_11" Price="5.99" ProductID="com.nekki.shadowfight.anniversary10_th_11" PlatformID="2" ProductType="2" Currency="40" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="259" RUSign="₽" RUSignCode="RUB" />
+    <item ID="93" Name="Anniversary10Th_12" Price="8.99" ProductID="com.nekki.shadowfight.anniversary10_th_12" PlatformID="2" ProductType="2" Currency="41" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="94" Name="Anniversary10Th_13" Price="5.99" ProductID="com.nekki.shadowfight.anniversary10_th_13" PlatformID="2" ProductType="2" Currency="42" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="259" RUSign="₽" RUSignCode="RUB" />
+    <item ID="95" Name="Anniversary10Th_14" Price="5.99" ProductID="com.nekki.shadowfight.anniversary10_th_14" PlatformID="2" ProductType="2" Currency="43" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="259" RUSign="₽" RUSignCode="RUB" />
+    <item ID="96" Name="Anniversary10Th_15" Price="8.99" ProductID="com.nekki.shadowfight.anniversary10_th_15" PlatformID="2" ProductType="2" Currency="44" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="97" Name="Anniversary10Th_16" Price="8.99" ProductID="com.nekki.shadowfight.anniversary10_th_16" PlatformID="2" ProductType="2" Currency="45" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="98" Name="Anniversary10Th_17" Price="5.99" ProductID="com.nekki.shadowfight.anniversary10_th_17" PlatformID="2" ProductType="2" Currency="46" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="259" RUSign="₽" RUSignCode="RUB" />
+    <item ID="99" Name="Anniversary10Th_18" Price="8.99" ProductID="com.nekki.shadowfight.anniversary10_th_18" PlatformID="2" ProductType="2" Currency="47" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="100" Name="Anniversary10Th_19" Price="8.99" ProductID="com.nekki.shadowfight.anniversary10_th_19" PlatformID="2" ProductType="2" Currency="48" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="101" Name="Anniversary10Th_20" Price="8.99" ProductID="com.nekki.shadowfight.anniversary10_th_20" PlatformID="2" ProductType="2" Currency="49" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="102" Name="Anniversary10Th_21" Price="14.99" ProductID="com.nekki.shadowfight.anniversary10_th_21" PlatformID="2" ProductType="2" Currency="50" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="599" RUSign="₽" RUSignCode="RUB" />
+    <item ID="103" Name="BlackFriday23_1" Price="5.99" ProductID="com.nekki.shadowfight.black_friday23_1" PlatformID="2" ProductType="2" Currency="51" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="259" RUSign="₽" RUSignCode="RUB" />
+    <item ID="104" Name="BlackFriday23_2" Price="5.99" ProductID="com.nekki.shadowfight.black_friday23_2" PlatformID="2" ProductType="2" Currency="52" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="259" RUSign="₽" RUSignCode="RUB" />
+    <item ID="105" Name="BlackFriday23_3" Price="5.99" ProductID="com.nekki.shadowfight.black_friday23_3" PlatformID="2" ProductType="2" Currency="53" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="259" RUSign="₽" RUSignCode="RUB" />
+    <item ID="106" Name="BlackFriday23_4" Price="8.99" ProductID="com.nekki.shadowfight.black_friday23_4" PlatformID="2" ProductType="2" Currency="54" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="107" Name="BlackFriday23_5" Price="5.99" ProductID="com.nekki.shadowfight.black_friday23_5" PlatformID="2" ProductType="2" Currency="55" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="259" RUSign="₽" RUSignCode="RUB" />
+    <item ID="108" Name="BlackFriday23_6" Price="5.99" ProductID="com.nekki.shadowfight.black_friday23_6" PlatformID="2" ProductType="2" Currency="56" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="259" RUSign="₽" RUSignCode="RUB" />
+    <item ID="109" Name="BlackFriday23_7" Price="8.99" ProductID="com.nekki.shadowfight.black_friday23_7" PlatformID="2" ProductType="2" Currency="57" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="110" Name="NewYear2024_1" Price="2.99" ProductID="com.nekki.shadowfight.new_year_2024_th_1" PlatformID="2" ProductType="2" Currency="58" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="111" Name="NewYear2024_2" Price="2.99" ProductID="com.nekki.shadowfight.new_year_2024_th_2" PlatformID="2" ProductType="2" Currency="59" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="112" Name="NewYear2024_3" Price="2.99" ProductID="com.nekki.shadowfight.new_year_2024_th_3" PlatformID="2" ProductType="2" Currency="60" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="113" Name="NewYear2024_4" Price="2.99" ProductID="com.nekki.shadowfight.new_year_2024_th_4" PlatformID="2" ProductType="2" Currency="61" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="114" Name="NewYear2024_5" Price="2.99" ProductID="com.nekki.shadowfight.new_year_2024_th_5" PlatformID="2" ProductType="2" Currency="62" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="115" Name="Zone4CyberDragonOffer" Price="9.99" ProductID="com.nekki.shadowfight.zone4_cyber_dragon" PlatformID="2" ProductType="2" Currency="63" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="349.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="116" Name="СNY2024Offer" Price="2.99" ProductID="com.nekki.shadowfight.chny24_pack_offer" PlatformID="2" ProductType="2" Currency="64" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="117" Name="MidFebruary24Offer_1" Price="8.99" ProductID="com.nekki.shadowfight.mid_february24_offer_1" PlatformID="2" ProductType="2" Currency="65" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="118" Name="MidFebruary24Offer_2" Price="8.99" ProductID="com.nekki.shadowfight.mid_february24_offer_2" PlatformID="2" ProductType="2" Currency="66" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="119" Name="8March24Offer" Price="8.99" ProductID="com.nekki.shadowfight.8_march24_offer" PlatformID="2" ProductType="2" Currency="67" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="120" Name="Fungus24Offer" Price="2.99" ProductID="com.nekki.shadowfight.fungus24_offer" PlatformID="2" ProductType="2" Currency="68" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="121" Name="Hunger24Offer" Price="2.99" ProductID="com.nekki.shadowfight.hunger24_offer" PlatformID="2" ProductType="2" Currency="69" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="122" Name="India24_1" Price="2.99" ProductID="com.nekki.shadowfight.india24_1" PlatformID="2" ProductType="2" Currency="70" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="123" Name="India24_2" Price="2.99" ProductID="com.nekki.shadowfight.india24_2" PlatformID="2" ProductType="2" Currency="71" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="124" Name="India24_3" Price="2.99" ProductID="com.nekki.shadowfight.india24_3" PlatformID="2" ProductType="2" Currency="72" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="125" Name="DailyOffer_1" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_1" PlatformID="2" ProductType="2" Currency="73" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="126" Name="DailyOffer_2" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_1" PlatformID="2" ProductType="2" Currency="74" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="127" Name="DailyOffer_3" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_2" PlatformID="2" ProductType="2" Currency="75" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="128" Name="DailyOffer_4" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_2" PlatformID="2" ProductType="2" Currency="76" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="129" Name="DailyOffer_5" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_3" PlatformID="2" ProductType="2" Currency="77" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="130" Name="DailyOffer_6" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_3" PlatformID="2" ProductType="2" Currency="78" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="131" Name="DailyOffer_7" Price="14.99" ProductID="com.nekki.shadowfight.daily_offer_15_1" PlatformID="2" ProductType="2" Currency="79" AddCurrency="0" Sign="$" SignCode="USD" Label="" GroupID="" AddPercent="" RUPrice="599" RUSign="₽" RUSignCode="RUB" />
+    <item ID="132" Name="DailyOffer_3_4" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_4" PlatformID="2" ProductType="2" Currency="80" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="133" Name="DailyOffer_3_5" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_5" PlatformID="2" ProductType="2" Currency="81" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="134" Name="DailyOffer_3_6" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_6" PlatformID="2" ProductType="2" Currency="82" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="135" Name="DailyOffer_3_7" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_7" PlatformID="2" ProductType="2" Currency="83" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="136" Name="DailyOffer_3_8" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_8" PlatformID="2" ProductType="2" Currency="84" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="137" Name="DailyOffer_3_9" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_9" PlatformID="2" ProductType="2" Currency="85" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="138" Name="DailyOffer_3_10" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_10" PlatformID="2" ProductType="2" Currency="86" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="139" Name="DailyOffer_3_11" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_11" PlatformID="2" ProductType="2" Currency="87" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="140" Name="DailyOffer_3_12" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_12" PlatformID="2" ProductType="2" Currency="88" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="141" Name="DailyOffer_3_13" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_13" PlatformID="2" ProductType="2" Currency="89" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="142" Name="DailyOffer_3_14" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_14" PlatformID="2" ProductType="2" Currency="90" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="143" Name="DailyOffer_3_15" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_15" PlatformID="2" ProductType="2" Currency="91" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="144" Name="DailyOffer_3_16" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_16" PlatformID="2" ProductType="2" Currency="92" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="145" Name="DailyOffer_3_17" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_17" PlatformID="2" ProductType="2" Currency="93" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="146" Name="DailyOffer_3_18" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_18" PlatformID="2" ProductType="2" Currency="94" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="147" Name="DailyOffer_3_19" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_19" PlatformID="2" ProductType="2" Currency="95" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="148" Name="DailyOffer_3_20" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_20" PlatformID="2" ProductType="2" Currency="96" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="149" Name="DailyOffer_3_21" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_21" PlatformID="2" ProductType="2" Currency="97" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="150" Name="DailyOffer_3_22" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_22" PlatformID="2" ProductType="2" Currency="98" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="151" Name="DailyOffer_3_23" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_23" PlatformID="2" ProductType="2" Currency="99" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="152" Name="DailyOffer_3_24" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_24" PlatformID="2" ProductType="2" Currency="100" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="153" Name="DailyOffer_3_25" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_25" PlatformID="2" ProductType="2" Currency="101" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="154" Name="DailyOffer_3_26" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_26" PlatformID="2" ProductType="2" Currency="102" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="157" Name="DailyOffer_3_29" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_29" PlatformID="2" ProductType="2" Currency="105" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="158" Name="DailyOffer_3_30" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_30" PlatformID="2" ProductType="2" Currency="106" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="159" Name="DailyOffer_3_31" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_31" PlatformID="2" ProductType="2" Currency="107" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="160" Name="DailyOffer_3_32" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_32" PlatformID="2" ProductType="2" Currency="108" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="161" Name="DailyOffer_3_33" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_33" PlatformID="2" ProductType="2" Currency="109" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="162" Name="DailyOffer_3_34" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_34" PlatformID="2" ProductType="2" Currency="110" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="163" Name="DailyOffer_3_35" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_35" PlatformID="2" ProductType="2" Currency="111" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="164" Name="DailyOffer_3_36" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_36" PlatformID="2" ProductType="2" Currency="112" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="165" Name="DailyOffer_3_37" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_37" PlatformID="2" ProductType="2" Currency="113" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="166" Name="DailyOffer_3_38" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_38" PlatformID="2" ProductType="2" Currency="114" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="167" Name="DailyOffer_3_39" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_39" PlatformID="2" ProductType="2" Currency="115" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="168" Name="DailyOffer_3_40" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_40" PlatformID="2" ProductType="2" Currency="116" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="169" Name="DailyOffer_3_41" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_41" PlatformID="2" ProductType="2" Currency="117" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="170" Name="DailyOffer_3_42" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_42" PlatformID="2" ProductType="2" Currency="118" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="175" Name="DailyOffer_3_47" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_47" PlatformID="2" ProductType="2" Currency="123" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="180" Name="DailyOffer_3_52" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_52" PlatformID="2" ProductType="2" Currency="128" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="192" Name="DailyOffer_3_64" Price="2.99" ProductID="com.nekki.shadowfight.daily_offer_3_64" PlatformID="2" ProductType="2" Currency="140" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="104.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="193" Name="DailyOffer_9_1" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_1" PlatformID="2" ProductType="2" Currency="141" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="194" Name="DailyOffer_9_2" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_2" PlatformID="2" ProductType="2" Currency="142" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="196" Name="DailyOffer_9_4" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_4" PlatformID="2" ProductType="2" Currency="144" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="197" Name="DailyOffer_9_5" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_5" PlatformID="2" ProductType="2" Currency="145" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="198" Name="DailyOffer_9_6" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_6" PlatformID="2" ProductType="2" Currency="146" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="199" Name="DailyOffer_9_7" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_7" PlatformID="2" ProductType="2" Currency="147" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="200" Name="DailyOffer_9_8" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_8" PlatformID="2" ProductType="2" Currency="148" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="201" Name="DailyOffer_9_9" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_9" PlatformID="2" ProductType="2" Currency="149" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="202" Name="DailyOffer_9_10" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_10" PlatformID="2" ProductType="2" Currency="150" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="203" Name="DailyOffer_9_11" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_11" PlatformID="2" ProductType="2" Currency="151" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="204" Name="DailyOffer_9_12" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_12" PlatformID="2" ProductType="2" Currency="152" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="205" Name="DailyOffer_9_13" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_13" PlatformID="2" ProductType="2" Currency="153" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="206" Name="DailyOffer_9_14" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_14" PlatformID="2" ProductType="2" Currency="154" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="207" Name="DailyOffer_9_15" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_15" PlatformID="2" ProductType="2" Currency="155" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="208" Name="DailyOffer_9_16" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_16" PlatformID="2" ProductType="2" Currency="156" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="209" Name="DailyOffer_9_17" Price="8.99" ProductID="com.nekki.shadowfight.daily_offer_9_17" PlatformID="2" ProductType="2" Currency="157" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="314.99" RUSign="₽" RUSignCode="RUB" />
+    <item ID="210" Name="DailyOffer_15_2" Price="14.99" ProductID="com.nekki.shadowfight.daily_offer_15_2" PlatformID="2" ProductType="2" Currency="158" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="599" RUSign="₽" RUSignCode="RUB" />
+    <item ID="211" Name="DailyOffer_15_3" Price="14.99" ProductID="com.nekki.shadowfight.daily_offer_15_3" PlatformID="2" ProductType="2" Currency="159" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="599" RUSign="₽" RUSignCode="RUB" />
+    <item ID="212" Name="DailyOffer_15_4" Price="14.99" ProductID="com.nekki.shadowfight.daily_offer_15_4" PlatformID="2" ProductType="2" Currency="160" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="599" RUSign="₽" RUSignCode="RUB" />
+    <item ID="213" Name="DailyOffer_15_5" Price="14.99" ProductID="com.nekki.shadowfight.daily_offer_15_5" PlatformID="2" ProductType="2" Currency="161" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="599" RUSign="₽" RUSignCode="RUB" />
+    <item ID="214" Name="DailyOffer_15_6" Price="14.99" ProductID="com.nekki.shadowfight.daily_offer_15_6" PlatformID="2" ProductType="2" Currency="162" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="599" RUSign="₽" RUSignCode="RUB" />
+    <item ID="215" Name="DailyOffer_15_7" Price="14.99" ProductID="com.nekki.shadowfight.daily_offer_15_7" PlatformID="2" ProductType="2" Currency="163" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="599" RUSign="₽" RUSignCode="RUB" />
+    <item ID="216" Name="DailyOffer_15_8" Price="14.99" ProductID="com.nekki.shadowfight.daily_offer_15_8" PlatformID="2" ProductType="2" Currency="164" AddCurrency="0" Sign="$" SignCode="USD" RUPrice="599" RUSign="₽" RUSignCode="RUB" />
+  </price>
+  <currency>
+    <item ID="1" Name="Gold" Alias="money" />
+    <item ID="2" Name="Bonus" Alias="bonus" />
+    <item ID="3" Name="StarterPack" Alias="starterpack" Gems="30" />
+    <item ID="4" Name="UnlimitedEnergy" Alias="unlimitedenergy" />
+    <item ID="5" Name="PremiumPackZone1" Alias="Premium_Pack_Zone1" Gems="200" />
+    <item ID="6" Name="PremiumPackZone2" Alias="Premium_Pack_Zone2" Gems="200" />
+    <item ID="7" Name="EventPack" Alias="" />
+    <item ID="8" Name="PremiumPackZone3" Alias="Premium_Pack_Zone3" Gems="250" />
+    <item ID="9" Name="PremiumPackZone4" Alias="Premium_Pack_Zone4" Gems="200" />
+    <item ID="10" Name="PremiumPackZone5" Alias="Premium_Pack_Zone5" Gems="200" />
+    <item ID="11" Name="PremiumPackZone6" Alias="Premium_Pack_Zone6" Gems="200" />
+    <item ID="12" Name="NY21EventPack" Alias="" />
+    <item ID="13" Name="CHNY21EventPack" Alias="CHNY21EventPack" />
+    <item ID="14" Name="IE21EventPack" Alias="IE21EventPack" />
+    <item ID="15" Name="AE21EventPack" Alias="AE21EventPack" />
+    <item ID="16" Name="ForgeMaterial1" Alias="ForgeMaterial1" />
+    <item ID="17" Name="ForgeMaterial2" Alias="ForgeMaterial2" />
+    <item ID="18" Name="ForgeMaterial3" Alias="ForgeMaterial3" />
+    <item ID="19" Name="Summer21EventPack" Alias="Summer21EventPack" />
+    <item ID="20" Name="Premium_Pack_WeaponOfferZone1" Alias="Premium_Pack_WeaponOfferZone1" />
+    <item ID="21" Name="Premium_Pack_WeaponOfferZone2" Alias="Premium_Pack_WeaponOfferZone2" />
+    <item ID="22" Name="Premium_Pack_WeaponOfferZone3" Alias="Premium_Pack_WeaponOfferZone3" />
+    <item ID="23" Name="Premium_Pack_WeaponOfferZone4" Alias="Premium_Pack_WeaponOfferZone4" />
+    <item ID="24" Name="Premium_Pack_WeaponOfferZone5" Alias="Premium_Pack_WeaponOfferZone5" />
+    <item ID="25" Name="Premium_Pack_WeaponOfferZone6" Alias="Premium_Pack_WeaponOfferZone6" />
+    <item ID="26" Name="RaidBeginnerPack" Alias="RaidBeginnerPack" />
+    <item ID="27" Name="CNY22EventPack" Alias="CNY22EventPack" />
+    <item ID="28" Name="BoatFestival22Pack" Alias="BoatFestival22Pack" />
+    <item ID="29" Name="Premium_Pack_ZoneRaid4" Alias="Premium_Pack_ZoneRaid4" />
+    <item ID="30" Name="Anniversary10Th_1" Alias="Anniversary10Th_1" />
+    <item ID="31" Name="Anniversary10Th_2" Alias="Anniversary10Th_2" />
+    <item ID="32" Name="Anniversary10Th_3" Alias="Anniversary10Th_3" />
+    <item ID="33" Name="Anniversary10Th_4" Alias="Anniversary10Th_4" />
+    <item ID="34" Name="Anniversary10Th_5" Alias="Anniversary10Th_5" />
+    <item ID="35" Name="Anniversary10Th_6" Alias="Anniversary10Th_6" />
+    <item ID="36" Name="Anniversary10Th_7" Alias="Anniversary10Th_7" />
+    <item ID="37" Name="Anniversary10Th_8" Alias="Anniversary10Th_8" />
+    <item ID="38" Name="Anniversary10Th_9" Alias="Anniversary10Th_9" />
+    <item ID="39" Name="Anniversary10Th_10" Alias="Anniversary10Th_10" />
+    <item ID="40" Name="Anniversary10Th_11" Alias="Anniversary10Th_11" />
+    <item ID="41" Name="Anniversary10Th_12" Alias="Anniversary10Th_12" />
+    <item ID="42" Name="Anniversary10Th_13" Alias="Anniversary10Th_13" />
+    <item ID="43" Name="Anniversary10Th_14" Alias="Anniversary10Th_14" />
+    <item ID="44" Name="Anniversary10Th_15" Alias="Anniversary10Th_15" />
+    <item ID="45" Name="Anniversary10Th_16" Alias="Anniversary10Th_16" />
+    <item ID="46" Name="Anniversary10Th_17" Alias="Anniversary10Th_17" />
+    <item ID="47" Name="Anniversary10Th_18" Alias="Anniversary10Th_18" />
+    <item ID="48" Name="Anniversary10Th_19" Alias="Anniversary10Th_19" />
+    <item ID="49" Name="Anniversary10Th_20" Alias="Anniversary10Th_20" />
+    <item ID="50" Name="Anniversary10Th_21" Alias="Anniversary10Th_21" />
+    <item ID="51" Name="BlackFriday23_1" Alias="BlackFriday23_1" />
+    <item ID="52" Name="BlackFriday23_2" Alias="BlackFriday23_2" />
+    <item ID="53" Name="BlackFriday23_3" Alias="BlackFriday23_3" />
+    <item ID="54" Name="BlackFriday23_4" Alias="BlackFriday23_4" />
+    <item ID="55" Name="BlackFriday23_5" Alias="BlackFriday23_5" />
+    <item ID="56" Name="BlackFriday23_6" Alias="BlackFriday23_6" />
+    <item ID="57" Name="BlackFriday23_7" Alias="BlackFriday23_7" />
+    <item ID="58" Name="NewYear2024_1" Alias="NewYear2024_1" />
+    <item ID="59" Name="NewYear2024_2" Alias="NewYear2024_2" />
+    <item ID="60" Name="NewYear2024_3" Alias="NewYear2024_3" />
+    <item ID="61" Name="NewYear2024_4" Alias="NewYear2024_4" />
+    <item ID="62" Name="NewYear2024_5" Alias="NewYear2024_5" />
+    <item ID="63" Name="Zone4CyberDragonOffer" Alias="Zone4CyberDragonOffer" />
+    <item ID="64" Name="СNY2024Offer" Alias="СNY2024Offer" />
+    <item ID="65" Name="MidFebruary24Offer_1" Alias="MidFebruary24Offer_1" />
+    <item ID="66" Name="MidFebruary24Offer_2" Alias="MidFebruary24Offer_2" />
+    <item ID="67" Name="8March24Offer" Alias="8March24Offer" />
+    <item ID="68" Name="Fungus24Offer" Alias="Fungus24Offer" />
+    <item ID="69" Name="Hunger24Offer" Alias="Hunger24Offer" />
+    <item ID="70" Name="India24_1" Alias="India24_1" />
+    <item ID="71" Name="India24_2" Alias="India24_2" />
+    <item ID="72" Name="India24_3" Alias="India24_3" />
+    <item ID="73" Name="DailyOffer_1" Alias="DailyOffer_1" />
+    <item ID="74" Name="DailyOffer_2" Alias="DailyOffer_2" />
+    <item ID="75" Name="DailyOffer_3" Alias="DailyOffer_3" />
+    <item ID="76" Name="DailyOffer_4" Alias="DailyOffer_4" />
+    <item ID="77" Name="DailyOffer_5" Alias="DailyOffer_5" />
+    <item ID="78" Name="DailyOffer_6" Alias="DailyOffer_6" />
+    <item ID="79" Name="DailyOffer_7" Alias="DailyOffer_7" />
+    <item ID="80" Name="DailyOffer_3_4" Alias="DailyOffer_3_4" />
+    <item ID="81" Name="DailyOffer_3_5" Alias="DailyOffer_3_5" />
+    <item ID="82" Name="DailyOffer_3_6" Alias="DailyOffer_3_6" />
+    <item ID="83" Name="DailyOffer_3_7" Alias="DailyOffer_3_7" />
+    <item ID="84" Name="DailyOffer_3_8" Alias="DailyOffer_3_8" />
+    <item ID="85" Name="DailyOffer_3_9" Alias="DailyOffer_3_9" />
+    <item ID="86" Name="DailyOffer_3_10" Alias="DailyOffer_3_10" />
+    <item ID="87" Name="DailyOffer_3_11" Alias="DailyOffer_3_11" />
+    <item ID="88" Name="DailyOffer_3_12" Alias="DailyOffer_3_12" />
+    <item ID="89" Name="DailyOffer_3_13" Alias="DailyOffer_3_13" />
+    <item ID="90" Name="DailyOffer_3_14" Alias="DailyOffer_3_14" />
+    <item ID="91" Name="DailyOffer_3_15" Alias="DailyOffer_3_15" />
+    <item ID="92" Name="DailyOffer_3_16" Alias="DailyOffer_3_16" />
+    <item ID="93" Name="DailyOffer_3_17" Alias="DailyOffer_3_17" />
+    <item ID="94" Name="DailyOffer_3_18" Alias="DailyOffer_3_18" />
+    <item ID="95" Name="DailyOffer_3_19" Alias="DailyOffer_3_19" />
+    <item ID="96" Name="DailyOffer_3_20" Alias="DailyOffer_3_20" />
+    <item ID="97" Name="DailyOffer_3_21" Alias="DailyOffer_3_21" />
+    <item ID="98" Name="DailyOffer_3_22" Alias="DailyOffer_3_22" />
+    <item ID="99" Name="DailyOffer_3_23" Alias="DailyOffer_3_23" />
+    <item ID="100" Name="DailyOffer_3_24" Alias="DailyOffer_3_24" />
+    <item ID="101" Name="DailyOffer_3_25" Alias="DailyOffer_3_25" />
+    <item ID="102" Name="DailyOffer_3_26" Alias="DailyOffer_3_26" />
+    <item ID="103" Name="DailyOffer_3_27" Alias="DailyOffer_3_27" />
+    <item ID="104" Name="DailyOffer_3_28" Alias="DailyOffer_3_28" />
+    <item ID="105" Name="DailyOffer_3_29" Alias="DailyOffer_3_29" />
+    <item ID="106" Name="DailyOffer_3_30" Alias="DailyOffer_3_30" />
+    <item ID="107" Name="DailyOffer_3_31" Alias="DailyOffer_3_31" />
+    <item ID="108" Name="DailyOffer_3_32" Alias="DailyOffer_3_32" />
+    <item ID="109" Name="DailyOffer_3_33" Alias="DailyOffer_3_33" />
+    <item ID="110" Name="DailyOffer_3_34" Alias="DailyOffer_3_34" />
+    <item ID="111" Name="DailyOffer_3_35" Alias="DailyOffer_3_35" />
+    <item ID="112" Name="DailyOffer_3_36" Alias="DailyOffer_3_36" />
+    <item ID="113" Name="DailyOffer_3_37" Alias="DailyOffer_3_37" />
+    <item ID="114" Name="DailyOffer_3_38" Alias="DailyOffer_3_38" />
+    <item ID="115" Name="DailyOffer_3_39" Alias="DailyOffer_3_39" />
+    <item ID="116" Name="DailyOffer_3_40" Alias="DailyOffer_3_40" />
+    <item ID="117" Name="DailyOffer_3_41" Alias="DailyOffer_3_41" />
+    <item ID="118" Name="DailyOffer_3_42" Alias="DailyOffer_3_42" />
+    <item ID="119" Name="DailyOffer_3_43" Alias="DailyOffer_3_43" />
+    <item ID="120" Name="DailyOffer_3_44" Alias="DailyOffer_3_44" />
+    <item ID="121" Name="DailyOffer_3_45" Alias="DailyOffer_3_45" />
+    <item ID="122" Name="DailyOffer_3_46" Alias="DailyOffer_3_46" />
+    <item ID="123" Name="DailyOffer_3_47" Alias="DailyOffer_3_47" />
+    <item ID="124" Name="DailyOffer_3_48" Alias="DailyOffer_3_48" />
+    <item ID="125" Name="DailyOffer_3_49" Alias="DailyOffer_3_49" />
+    <item ID="126" Name="DailyOffer_3_50" Alias="DailyOffer_3_50" />
+    <item ID="127" Name="DailyOffer_3_51" Alias="DailyOffer_3_51" />
+    <item ID="128" Name="DailyOffer_3_52" Alias="DailyOffer_3_52" />
+    <item ID="129" Name="DailyOffer_3_53" Alias="DailyOffer_3_53" />
+    <item ID="130" Name="DailyOffer_3_54" Alias="DailyOffer_3_54" />
+    <item ID="131" Name="DailyOffer_3_55" Alias="DailyOffer_3_55" />
+    <item ID="132" Name="DailyOffer_3_56" Alias="DailyOffer_3_56" />
+    <item ID="133" Name="DailyOffer_3_57" Alias="DailyOffer_3_57" />
+    <item ID="134" Name="DailyOffer_3_58" Alias="DailyOffer_3_58" />
+    <item ID="135" Name="DailyOffer_3_59" Alias="DailyOffer_3_59" />
+    <item ID="136" Name="DailyOffer_3_60" Alias="DailyOffer_3_60" />
+    <item ID="137" Name="DailyOffer_3_61" Alias="DailyOffer_3_61" />
+    <item ID="138" Name="DailyOffer_3_62" Alias="DailyOffer_3_62" />
+    <item ID="139" Name="DailyOffer_3_63" Alias="DailyOffer_3_63" />
+    <item ID="140" Name="DailyOffer_3_64" Alias="DailyOffer_3_64" />
+    <item ID="141" Name="DailyOffer_9_1" Alias="DailyOffer_9_1" />
+    <item ID="142" Name="DailyOffer_9_2" Alias="DailyOffer_9_2" />
+    <item ID="143" Name="DailyOffer_9_3" Alias="DailyOffer_9_3" />
+    <item ID="144" Name="DailyOffer_9_4" Alias="DailyOffer_9_4" />
+    <item ID="145" Name="DailyOffer_9_5" Alias="DailyOffer_9_5" />
+    <item ID="146" Name="DailyOffer_9_6" Alias="DailyOffer_9_6" />
+    <item ID="147" Name="DailyOffer_9_7" Alias="DailyOffer_9_7" />
+    <item ID="148" Name="DailyOffer_9_8" Alias="DailyOffer_9_8" />
+    <item ID="149" Name="DailyOffer_9_9" Alias="DailyOffer_9_9" />
+    <item ID="150" Name="DailyOffer_9_10" Alias="DailyOffer_9_10" />
+    <item ID="151" Name="DailyOffer_9_11" Alias="DailyOffer_9_11" />
+    <item ID="152" Name="DailyOffer_9_12" Alias="DailyOffer_9_12" />
+    <item ID="153" Name="DailyOffer_9_13" Alias="DailyOffer_9_13" />
+    <item ID="154" Name="DailyOffer_9_14" Alias="DailyOffer_9_14" />
+    <item ID="155" Name="DailyOffer_9_15" Alias="DailyOffer_9_15" />
+    <item ID="156" Name="DailyOffer_9_16" Alias="DailyOffer_9_16" />
+    <item ID="157" Name="DailyOffer_9_17" Alias="DailyOffer_9_17" />
+    <item ID="158" Name="DailyOffer_15_2" Alias="DailyOffer_15_2" />
+    <item ID="159" Name="DailyOffer_15_3" Alias="DailyOffer_15_3" />
+    <item ID="160" Name="DailyOffer_15_4" Alias="DailyOffer_15_4" />
+    <item ID="161" Name="DailyOffer_15_5" Alias="DailyOffer_15_5" />
+    <item ID="162" Name="DailyOffer_15_6" Alias="DailyOffer_15_6" />
+    <item ID="163" Name="DailyOffer_15_7" Alias="DailyOffer_15_7" />
+    <item ID="164" Name="DailyOffer_15_8" Alias="DailyOffer_15_8" />
+  </currency>
+  <payments>
+    <item ProductType="1" Name="Consumable" />
+    <item ProductType="2" Name="Nonconsumable" />
+  </payments>
+  <advertisement>
+    <!--iOS-->
+    <item SpenderTypeID="1" AdRate="100" AdRaidsRate="10" PlatformID="1" />
+    <item SpenderTypeID="2" AdRate="0" AdRaidsRate="0" PlatformID="1" />
+    <item SpenderTypeID="3" AdRate="0" AdRaidsRate="0" PlatformID="1" />
+    <item SpenderTypeID="4" AdRate="0" AdRaidsRate="0" PlatformID="1" />
+    <item SpenderTypeID="5" AdRate="0" AdRaidsRate="0" PlatformID="1" />
+    <!--android-->
+    <item SpenderTypeID="1" AdRate="100" AdRaidsRate="10" PlatformID="2" />
+    <item SpenderTypeID="2" AdRate="0" AdRaidsRate="0" PlatformID="2" />
+    <item SpenderTypeID="3" AdRate="0" AdRaidsRate="0" PlatformID="2" />
+    <item SpenderTypeID="4" AdRate="0" AdRaidsRate="0" PlatformID="2" />
+    <item SpenderTypeID="5" AdRate="0" AdRaidsRate="0" PlatformID="2" />
+    <!--huawei-->
+    <item SpenderTypeID="1" AdRate="100" AdRaidsRate="10" PlatformID="11" />
+    <item SpenderTypeID="2" AdRate="0" AdRaidsRate="0" PlatformID="11" />
+    <item SpenderTypeID="3" AdRate="0" AdRaidsRate="0" PlatformID="11" />
+    <item SpenderTypeID="4" AdRate="0" AdRaidsRate="0" PlatformID="11" />
+    <item SpenderTypeID="5" AdRate="0" AdRaidsRate="0" PlatformID="11" />
+  </advertisement>
+  <VideoAdMultiplier>
+    <item Zone="ZONE_1" Show="1" PlatformID="1" Multiplier="1.5" />
+    <item Zone="ZONE_2" Show="1" PlatformID="1" Multiplier="1.3" />
+    <item Zone="ZONE_3" Show="1" PlatformID="1" Multiplier="1.4" />
+    <item Zone="ZONE_4" Show="1" PlatformID="1" Multiplier="1.3" />
+    <item Zone="ZONE_5" Show="1" PlatformID="1" Multiplier="1.3" />
+    <item Zone="ZONE_6" Show="1" PlatformID="1" Multiplier="1.3" />
+    <item Zone="ZONE_IM" Show="1" PlatformID="1" Multiplier="1.2" />
+    <item Zone="ZONE_7" Show="1" PlatformID="1" Multiplier="1.3" />
+    <item Zone="ZONE_1" Show="1" PlatformID="3" Multiplier="1.5" />
+    <item Zone="ZONE_2" Show="1" PlatformID="3" Multiplier="1.3" />
+    <item Zone="ZONE_3" Show="1" PlatformID="3" Multiplier="1.4" />
+    <item Zone="ZONE_4" Show="1" PlatformID="3" Multiplier="1.3" />
+    <item Zone="ZONE_5" Show="1" PlatformID="3" Multiplier="1.3" />
+    <item Zone="ZONE_6" Show="1" PlatformID="3" Multiplier="1.3" />
+    <item Zone="ZONE_IM" Show="1" PlatformID="3" Multiplier="1.2" />
+    <item Zone="ZONE_7" Show="1" PlatformID="3" Multiplier="1.3" />
+    <item Zone="ZONE_1" Show="1" PlatformID="2" Multiplier="1.5" />
+    <item Zone="ZONE_2" Show="1" PlatformID="2" Multiplier="1.3" />
+    <item Zone="ZONE_3" Show="1" PlatformID="2" Multiplier="1.4" />
+    <item Zone="ZONE_4" Show="1" PlatformID="2" Multiplier="1.3" />
+    <item Zone="ZONE_5" Show="1" PlatformID="2" Multiplier="1.3" />
+    <item Zone="ZONE_6" Show="1" PlatformID="2" Multiplier="1.3" />
+    <item Zone="ZONE_IM" Show="1" PlatformID="2" Multiplier="1.2" />
+    <item Zone="ZONE_7" Show="1" PlatformID="2" Multiplier="1.3" />
+    <item Zone="ZONE_1" Show="1" PlatformID="11" Multiplier="1.4" />
+    <item Zone="ZONE_2" Show="1" PlatformID="11" Multiplier="1.3" />
+    <item Zone="ZONE_3" Show="1" PlatformID="11" Multiplier="1.3" />
+    <item Zone="ZONE_4" Show="1" PlatformID="11" Multiplier="1.3" />
+    <item Zone="ZONE_5" Show="1" PlatformID="11" Multiplier="1.2" />
+    <item Zone="ZONE_6" Show="1" PlatformID="11" Multiplier="1.2" />
+    <item Zone="ZONE_IM" Show="1" PlatformID="11" Multiplier="1.2" />
+    <item Zone="ZONE_7" Show="1" PlatformID="11" Multiplier="1.2" />
+    <item Zone="ZONE_1" Show="1" PlatformID="13" Multiplier="1.5" />
+    <item Zone="ZONE_2" Show="1" PlatformID="13" Multiplier="1.3" />
+    <item Zone="ZONE_3" Show="1" PlatformID="13" Multiplier="1.4" />
+    <item Zone="ZONE_4" Show="1" PlatformID="13" Multiplier="1.3" />
+    <item Zone="ZONE_5" Show="1" PlatformID="13" Multiplier="1.3" />
+    <item Zone="ZONE_6" Show="1" PlatformID="13" Multiplier="1.3" />
+    <item Zone="ZONE_IM" Show="1" PlatformID="13" Multiplier="1.2" />
+    <item Zone="ZONE_7" Show="1" PlatformID="13" Multiplier="1.3" />
+  </VideoAdMultiplier>
+  <SkipDeliveryTimeAd>
+    <item ItemOrUpgrade="180" Enchant="1200" PlatformID="1" />
+    <item ItemOrUpgrade="180" Enchant="1200" PlatformID="2" />
+    <item ItemOrUpgrade="180" Enchant="1200" PlatformID="3" />
+    <item ItemOrUpgrade="180" Enchant="1200" PlatformID="11" />
+    <item ItemOrUpgrade="180" Enchant="1200" PlatformID="13" />
+  </SkipDeliveryTimeAd>
+  <TapjoyAD>
+    <item FightEndEnabled="0" MapOpenEnabled="0" AbandonInAppPurchaseEnabled="0" OutOfEnergyEnabled="0" AppResumeEnabled="0" PlatformID="1" />
+    <item FightEndEnabled="0" MapOpenEnabled="0" AbandonInAppPurchaseEnabled="0" OutOfEnergyEnabled="0" AppResumeEnabled="0" PlatformID="2" />
+    <item FightEndEnabled="0" MapOpenEnabled="0" AbandonInAppPurchaseEnabled="0" OutOfEnergyEnabled="0" AppResumeEnabled="0" PlatformID="3" />
+  </TapjoyAD>
+  <RewardedAdViews>
+    <item Type="LotterySpin" Max="6" PlatformID="1" />
+    <item Type="LotterySpin" Max="6" PlatformID="2" />
+    <item Type="LotterySpin" Max="6" PlatformID="11" />
+    <item Type="LotterySpin" Max="2" PlatformID="11" />
+    <item Type="LotterySpin" Max="2" PlatformID="13" />
+  </RewardedAdViews>
+  <AdSettings>
+    <item PlatformID="1" GoogleDebugGeography="EEA" GoogleTestDeviceHashedIds="E89EB483-C805-4A5C-BBB5-8A160CB3AF05|DF669E12-99AB-4C04-8CEE-26600C6A105B" />
+    <item PlatformID="2" GoogleDebugGeography="EEA" GoogleTestDeviceHashedIds="1A8E5D5C2D96613EE2B5FF8C16E23857" />
+    <item PlatformID="13" PangleAppID="bI22lGfo0eLat8NJDCGEjw==" PangleInterstitialAdSlot="ookGqyeVzeVqMTugIulgOg==" PangleRewardedAdSlot="NE+griyHbLbvYLxt4fsUtQ==" />
+  </AdSettings>
+  <FightSpenderType>
+    <item SpenderTypeID="1" RetryBtn="0" PlatformID="1" />
+    <item SpenderTypeID="2" RetryBtn="1" PlatformID="1" />
+    <item SpenderTypeID="3" RetryBtn="1" PlatformID="1" />
+    <item SpenderTypeID="4" RetryBtn="1" PlatformID="1" />
+    <item SpenderTypeID="5" RetryBtn="1" PlatformID="1" />
+    <item SpenderTypeID="1" RetryBtn="0" PlatformID="2" />
+    <item SpenderTypeID="2" RetryBtn="1" PlatformID="2" />
+    <item SpenderTypeID="3" RetryBtn="1" PlatformID="2" />
+    <item SpenderTypeID="4" RetryBtn="1" PlatformID="2" />
+    <item SpenderTypeID="5" RetryBtn="1" PlatformID="2" />
+    <item SpenderTypeID="1" RetryBtn="0" PlatformID="3" />
+    <item SpenderTypeID="2" RetryBtn="1" PlatformID="3" />
+    <item SpenderTypeID="3" RetryBtn="1" PlatformID="3" />
+    <item SpenderTypeID="4" RetryBtn="1" PlatformID="3" />
+    <item SpenderTypeID="5" RetryBtn="1" PlatformID="3" />
+    <item SpenderTypeID="1" RetryBtn="0" PlatformID="11" />
+    <item SpenderTypeID="2" RetryBtn="0" PlatformID="11" />
+    <item SpenderTypeID="3" RetryBtn="0" PlatformID="11" />
+    <item SpenderTypeID="4" RetryBtn="0" PlatformID="11" />
+    <item SpenderTypeID="5" RetryBtn="0" PlatformID="11" />
+    <item SpenderTypeID="1" RetryBtn="0" PlatformID="13" />
+    <item SpenderTypeID="2" RetryBtn="1" PlatformID="13" />
+    <item SpenderTypeID="3" RetryBtn="1" PlatformID="13" />
+    <item SpenderTypeID="4" RetryBtn="1" PlatformID="13" />
+    <item SpenderTypeID="5" RetryBtn="1" PlatformID="13" />
+  </FightSpenderType>
+</data>
